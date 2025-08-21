@@ -218,10 +218,11 @@ img:hover {
 #contact iframe {
   width: 100%;
   max-width: 600px;
-  height: 400px;
+  height: 450px;
   border-radius: 15px;
   border: none;
   margin-top: 20px;
+  
 }
 #contact a {
   font-weight: bold;
@@ -298,3 +299,67 @@ footer {
     padding: 60px 20px;
   }
 }
+
+
+
+.banner-image {
+  
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+
+
+.banner-image {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: zoom-in;
+  max-width: 100%;
+ /* height: auto;*/
+  border-radius: 12px;
+}
+.banner-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+  .bg-rotator {
+    
+     
+      animation: changeBg 9s infinite;
+     
+    }
+
+
+
+  .bg-rotator2 {
+    
+     
+      animation: changeBg2 9s infinite;
+     
+    }
+  
+      @keyframes changeBg {
+        0%   { background-image: url(".../kuvat/257.JPG"); }
+        33%  { background-image: url(".../kuvat/Katti.jpg"); }
+        66%  { background-image: url(".../kuvat/puu.jpg"); }
+        100% { background-image: url(".../kuvat/nalle.jpg");}
+      }
+
+
+
+   @keyframes changeBg2 {
+   0%  { background-image: url("/kuvat/vanha\ penkki.jpg"); }
+      50%   { background-image: url("/kuvat/korjattu\ penkki.jpg"); }
+      100%  { background-image: url("/kuvat/vanha\ penkki.jpg"); }
+      
+      
+    }
+
