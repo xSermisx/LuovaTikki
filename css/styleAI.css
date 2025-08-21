@@ -347,18 +347,18 @@ footer {
     }
   
       @keyframes changeBg {
-        0%   { background-image: url(".../kuvat/257.JPG"); }
-        33%  { background-image: url(".../kuvat/Katti.jpg"); }
-        66%  { background-image: url(".../kuvat/puu.jpg"); }
-        100% { background-image: url(".../kuvat/nalle.jpg");}
+        0%   { background-image: url("../kuvat/257.JPG"); }
+        33%  { background-image: url("../kuvat/Katti.jpg"); }
+        66%  { background-image: url("../kuvat/puu.jpg"); }
+        100% { background-image: url("../kuvat/nalle.jpg");}
       }
 
 
 
    @keyframes changeBg2 {
-   0%  { background-image: url("/kuvat/vanha\ penkki.jpg"); }
-      50%   { background-image: url("/kuvat/korjattu\ penkki.jpg"); }
-      100%  { background-image: url("/kuvat/vanha\ penkki.jpg"); }
+   0%  { background-image: url("../kuvat/vanha\ penkki.jpg"); }
+      50%   { background-image: url("../kuvat/korjattu\ penkki.jpg"); }
+      100%  { background-image: url("../kuvat/vanha\ penkki.jpg"); }
       
       
     }
